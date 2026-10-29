@@ -1,0 +1,1698 @@
+
+<!-- ======================================================
+     PROYECTO: TERRANOV4 - HUERTAS URBANAS
+     ARCHIVO: index.html
+     DESCRIPCIÓN: ESTRUCTURA PRINCIPAL COMPLETA Y PROFESIONAL
+====================================================== -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- ================= META CONFIGURACIÓN ================= -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terranov4 | Huertas Urbanas</title>
+
+    <!-- ================= FAVICON ================= -->
+    <link rel="icon" href="IMAGENES/1.png" type="image/png">
+
+    <!-- ================= GOOGLE FONTS ================= -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- ================= ICONOS (FONT AWESOME) ================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- ================= CSS PRINCIPAL ================= -->
+    <link rel="stylesheet" href="Pagina_web.css">
+</head>
+
+<body>
+
+    <!-- ======================================================
+         HEADER SUPERIOR
+    ====================================================== -->
+    <header class="top-header">
+        <div class="logo-container">
+            <img src="IMAGENES/1.png" alt="Logo Terranov4">
+            <h1>Terranov4</h1>
+        </div>
+
+        <p class="tagline">Cultiva tu propio alimento desde casa 🌱</p>
+
+ <div class="header-icons">
+
+    <!-- FACEBOOK -->
+    <a href="https://facebook.com" target="_blank">
+        <i class="fab fa-facebook"></i>
+    </a>
+
+    <!-- INSTAGRAM -->
+    <a href="https://www.instagram.com/terranov4.ecolife?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <!-- WHATSAPP -->
+    <a href="https://wa.me/573202734026" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</div>
+    </header>
+
+    <!-- ======================================================
+         NAVBAR (MENÚ PRINCIPAL)
+    ====================================================== -->
+    
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#about">Sobre Nosotros</a></li>
+            <li><a href="#products">Productos</a></li>
+            
+            <li><a href="#contact">Contacto</a></li>
+            
+        </ul>
+
+        <!-- BUSCADOR 
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Buscar kits...">
+            <i class="fas fa-search"></i>
+        </div> -->
+
+        <!-- CARRITO -->
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count">0</span>
+        </div>
+    </nav>
+
+    <!-- ======================================================
+     HERO SECTION (PORTADA PRO)
+====================================================== -->
+<section id="hero" class="hero">
+
+    <!-- FIGURAS NATURALES -->
+    <div class="leaf leaf-1"></div>
+    <div class="leaf leaf-2"></div>
+    <div class="leaf leaf-3"></div>
+
+    <div class="hero-overlay">
+        <h2>Pequeños Kits, Grades Raises 🌱</h2>
+        <p>Vida, color y naturaleza en cada rincón de tu casa</p>
+
+<!--        <div class="hero-buttons">
+            <button class="btn-primary">Ver Kits</button>
+            <button class="btn-secondary">Comprar Ahora</button>
+        </div>
+    </div>-->
+
+    <!-- WAVE DECORATIVA -->
+    <div class="wave"></div>
+
+</section>
+
+<!-- ======================================================
+     CARRUSEL SIMPLE PRO
+====================================================== -->
+<section class="carousel-section">
+
+    <h2>🌿 Inspírate con Terranov4</h2>
+
+    <div class="carousel-container">
+
+        <div class="carousel-track">
+
+            <img src="IMAGENES/12.jpeg" class="carousel-slide">
+            <!--<img src="" class="carousel-slide">
+            <img src="" class="carousel-slide">-->
+
+        </div>
+
+        <!-- BOTONES -->
+        <button class="carousel-btn prev">❮</button>
+        <button class="carousel-btn next">❯</button>
+
+    </div>
+
+</section>
+
+<!-- ======================================================
+     PRESENTACIÓN (GOOGLE SLIDES PRO)
+====================================================== -->
+<section class="ppt-section">
+
+    <h2>📊 Conoce nuestro proyecto</h2>
+    <p class="ppt-subtitle">
+        Explora cómo Terranov4 transforma espacios urbanos en vida 🌱
+    </p>
+
+    <div class="ppt-wrapper">
+
+        <!-- EFECTO DECORATIVO -->
+        <div class="ppt-glow"></div>
+
+        <!-- IFRAME PRESENTACIÓN -->
+        <iframe 
+            src="IMAGENES/nuevo 3.jpeg"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+</section>
+
+
+<!-- ======================================================
+     EL ARBOL
+====================================================== -->
+<section class="arbol-didactico-section" style="padding: 60px 20px; background: #f9f9f9; text-align: center;">
+    <h2 style="color: #2e7d32; margin-bottom: 30px;">🌱 Mira cómo crece tu impacto</h2>
+    
+    <div class="contenedor-arbol-interactivo">
+        <div class="visual-sky">
+            <svg viewBox="0 0 200 200" id="svg-arbol-principal" style="width: 100%; height: 350px;">
+                <rect x="0" y="180" width="200" height="20" fill="#8D6E63" />
+                <circle id="p-semilla" cx="100" y="185" r="3" fill="#6D4C41" opacity="0" />
+                <g id="p-raices" opacity="0">
+                    <path d="M100 185 Q 95 190, 90 195 M100 185 Q 105 192, 110 198" stroke="#5D4037" stroke-width="1" fill="none"/>
+                </g>
+                <path id="p-tallo" d="M100 185 L100 170" stroke="#4CAF50" stroke-width="2" fill="none" opacity="0" />
+                <rect id="p-tronco" x="96" y="110" width="8" height="75" fill="#795548" opacity="0" />
+                <g id="p-hojas" opacity="0">
+                    <circle cx="90" cy="110" r="20" fill="#4CAF50" />
+                    <circle cx="110" cy="105" r="22" fill="#43A047" />
+                    <circle cx="100" cy="90" r="25" fill="#2E7D32" />
+                </g>
+                <g id="p-frutos" opacity="0">
+                    <circle cx="95" cy="115" r="3" fill="#f44336" />
+                    <circle cx="115" cy="95" r="3" fill="#f44336" />
+                    <circle cx="100" cy="80" r="3" fill="#f44336" />
+                </g>
+            </svg>
+        </div>
+
+        <div class="info-arbol" style="background: white; padding: 25px; border-radius: 0 0 20px 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+            <h3 id="txt-etapa-titulo" style="color: #21a37a;">¿Listo para plantar?</h3>
+            <p id="txt-etapa-desc" style="color: #666; min-height: 50px;">Haz clic en el botón para descubrir cómo nace un árbol con Terranov4.</p>
+            
+            <button id="btn-avanzar-arbol" style="background: #21a37a; color: white; border: none; padding: 12px 25px; border-radius: 50px; cursor: pointer; font-weight: bold; margin-top: 15px;">
+                🌱 Siguiente Fase
+            </button>
+        </div>
+    </div>
+</section>
+
+<style>
+    .contenedor-arbol-interactivo {
+        max-width: 500px;
+        margin: 0 auto;
+        border-radius: 20px;
+        overflow: hidden;
+        border: 2px solid #e0e0e0;
+    }
+    .visual-sky {
+        background: linear-gradient(#e3f2fd, #bbdefb);
+        position: relative;
+    }
+    /* Animación de aparición suave */
+    .show-part {
+        opacity: 1 !important;
+        transition: opacity 0.8s ease-in-out;
+    }
+    #p-tronco.show-part {
+        animation: crecerTronco 1s ease-out forwards;
+        transform-origin: bottom;
+    }
+    @keyframes crecerTronco {
+        from { transform: scaleY(0); }
+        to { transform: scaleY(1); }
+    }
+</style>
+
+<script>
+    (function() {
+        const fases = [
+            { t: "La Semilla", d: "Todo comienza con una pequeña semilla llena de energía.", id: "p-semilla" },
+            { t: "Las Raíces", d: "Buscando agua y soporte para crecer firme.", id: "p-raices" },
+            { t: "El Primer Brote", d: "El tallo sale a la superficie buscando la luz del sol.", id: "p-tallo" },
+            { t: "El Tronco", d: "Se fortalece para convertirse en la columna vertebral del árbol.", id: "p-tronco" },
+            { t: "La Copa", d: "Las hojas capturan energía y purifican el aire.", id: "p-hojas" },
+            { t: "La Cosecha", d: "¡Frutos listos! El ciclo de la vida se ha completado.", id: "p-frutos" }
+        ];
+
+        let faseActual = -1;
+        const btn = document.getElementById('btn-avanzar-arbol');
+        const titulo = document.getElementById('txt-etapa-titulo');
+        const desc = document.getElementById('txt-etapa-desc');
+
+        btn.addEventListener('click', () => {
+            faseActual++;
+            if (faseActual < fases.length) {
+                const f = fases[faseActual];
+                titulo.innerText = f.t;
+                desc.innerText = f.d;
+                document.getElementById(f.id).classList.add('show-part');
+
+                if (faseActual === fases.length - 1) {
+                    btn.innerText = "✨ ¡Ciclo Completado!";
+                    btn.style.background = "#795548";
+                }
+            } else {
+                // Reiniciar si se desea
+                faseActual = -1;
+                fases.forEach(f => document.getElementById(f.id).classList.remove('show-part'));
+                btn.innerText = "🌱 Siguiente Fase";
+                btn.style.background = "#21a37a";
+                titulo.innerText = "¿Listo para plantar?";
+                desc.innerText = "Haz clic para descubrir el proceso.";
+            }
+        });
+    })();
+</script>
+
+ <!-- ======================================================
+     SOBRE LA EMPRESA PRO
+====================================================== -->
+<section id="about" class="about">
+
+    <div class="about-bg"></div>
+
+    <h2>🌿 Sobre Terranov4</h2>
+
+    <div class="about-content">
+        <p>
+            Transformamos espacios urbanos en ecosistemas vivos. Nuestros kits convierten cualquier hogar en una fuente de vida, utilizando materiales reciclados y promoviendo un estilo sostenible.
+        </p>
+    </div>
+
+  
+
+</section>
+
+<!-- ======================================================
+     PRODUCTOS PRO (EXPANDIBLES)
+====================================================== -->
+<!-- ESTILOS CSS -->
+<style>
+  /* VARIABLES DE COLOR DE NATURALEZA */
+  :root {
+    --bg-nature: #eef6f0;
+    --primary-green: #2d5a27;
+    --secondary-green: #407a38;
+    --accent-light-green: #d8ece0;
+    --badge-wellness: #e2f0d9;
+    --badge-energy: #fff3cd;
+    --text-dark: #203322;
+    --text-muted: #5c7360;
+    --white: #ffffff;
+    --shadow: 0 10px 25px rgba(45, 90, 39, 0.08);
+    --border-radius: 18px;
+  }
+
+  /* CONTENEDOR PRINCIPAL */
+  .eco-experience-section {
+    background-color: var(--bg-nature);
+    padding: 50px 20px;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text-dark);
+  }
+
+  .eco-container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  /* ENCABEZADO */
+  .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .nature-tag {
+    background-color: var(--accent-light-green);
+    color: var(--primary-green);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .section-header h2 {
+    font-size: 2.2rem;
+    color: var(--primary-green);
+    margin: 8px 0;
+  }
+
+  .section-header p {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+  }
+
+  /* GRID DE KITS */
+  .kits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+
+  /* TARJETAS DE KITS */
+  .kit-card {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kit-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(45, 90, 39, 0.15);
+  }
+
+  .card-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    z-index: 2;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+
+  .wellness-badge {
+    background-color: var(--badge-wellness);
+    color: var(--primary-green);
+  }
+
+  .energy-badge {
+    background-color: var(--badge-energy);
+    color: #856404;
+  }
+
+  /* IMAGEN Y CÍRCULO CON NÚMERO */
+  .card-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 230px;
+    background-color: #f4f4f4;
+    overflow: hidden;
+  }
+
+  .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .number-circle {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: var(--primary-green);
+    color: var(--white);
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+
+  /* CUERPO DE LA TARJETA */
+  .card-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .kit-title {
+    color: var(--primary-green);
+    font-size: 1.4rem;
+    margin: 0;
+    letter-spacing: 0.5px;
+  }
+
+  .kit-subtitle {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin: 4px 0 18px 0;
+    font-weight: 600;
+  }
+
+  .includes-box {
+    background-color: #f8faf8;
+    border: 1px dashed #c2e0c8;
+    border-radius: 12px;
+    padding: 14px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+  }
+
+  .includes-header {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: var(--primary-green);
+    letter-spacing: 0.5px;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .includes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .includes-list li {
+    font-size: 0.9rem;
+    color: var(--text-dark);
+    margin-bottom: 6px;
+    line-height: 1.3;
+  }
+
+  .benefit-tag {
+    margin-top: 10px;
+    padding: 8px;
+    background: #eaf4e8;
+    border-radius: 8px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--primary-green);
+  }
+
+  /* PRECIO Y BOTÓN */
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+    padding-top: 10px;
+    border-top: 1px solid #eaeaea;
+  }
+
+  .price-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .price-label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+
+  .price-value {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--primary-green);
+  }
+
+  .btn-add-kit {
+    background-color: var(--primary-green);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .btn-add-kit:hover {
+    background-color: var(--secondary-green);
+  }
+
+  /* SECCIÓN PRODUCTOS POR SEPARADO */
+  .individual-section {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    padding: 30px;
+    box-shadow: var(--shadow);
+  }
+
+  .individual-header h3 {
+    color: var(--primary-green);
+    margin: 0 0 5px 0;
+    font-size: 1.3rem;
+  }
+
+  .individual-header p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+  }
+
+  .single-products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .single-card {
+    background: var(--bg-nature);
+    border-radius: 14px;
+    padding: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .single-icon {
+    font-size: 2rem;
+    margin-bottom: 8px;
+  }
+
+  .single-card h4 {
+    margin: 0 0 5px 0;
+    color: var(--primary-green);
+    font-size: 1rem;
+  }
+
+  .single-card p {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin: 0 0 10px 0;
+    flex-grow: 1;
+  }
+
+  .single-price {
+    font-weight: 700;
+    color: var(--text-dark);
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+  }
+
+  .btn-single-add {
+    background: transparent;
+    border: 1.5px solid var(--primary-green);
+    color: var(--primary-green);
+    padding: 6px 14px;
+    border-radius: 18px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .btn-single-add:hover {
+    background: var(--primary-green);
+    color: var(--white);
+  }
+
+  /* TOAST / NOTIFICACIÓN FLOTANTE */
+  .cart-toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--primary-green);
+    color: var(--white);
+    padding: 15px 22px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    display: none;
+    z-index: 1000;
+    animation: slideUp 0.3s ease;
+  }
+
+  .cart-toast p {
+    margin: 0 0 4px 0;
+    font-size: 0.95rem;
+  }
+
+  .cart-toast span {
+    font-size: 0.85rem;
+    opacity: 0.9;
+  }
+
+  @keyframes slideUp {
+    from { transform: translateY(100px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+</style>
+
+<!-- ESTRUCTURA HTML -->
+<section class="eco-experience-section">
+  <div class="eco-container">
+    
+    <!-- ENCABEZADO DE LA SECCIÓN -->
+    <div class="section-header">
+      <span class="nature-tag">🌱 Experiencia Natural</span>
+      <h2>Una Experiencia Única</h2>
+      <p>Kits holísticos diseñados para reconectar con tu bienestar y energía vital.</p>
+    </div>
+
+    <!-- KITS PRINCIPALES -->
+    <div class="kits-grid">
+
+      <!-- CARD 1: KIT BIENESTAR -->
+      <article class="kit-card">
+        <div class="card-badge wellness-badge">
+          🧘🏽‍♀️ Bienestar completo
+        </div>
+        <div class="card-image-wrapper">
+          <img src="IMAGENES/nuevo 1.jpeg" alt="Kit Bienestar" class="card-img" />
+          <span class="number-circle">3</span>
+        </div>
+        <div class="card-body">
+          <h3 class="kit-title">KIT BIENESTAR</h3>
+          <p class="kit-subtitle">Relájate y reconecta</p>
+
+          <div class="includes-box">
+            <span class="includes-header">INCLUYE:</span>
+            <ul class="includes-list">
+              <li>🌱 1 planta + tierra orgánica + guía de siembra</li>
+              <li>🪵 3 palitos de incienso lavanda</li>
+              <li>🧴 2 aceites (esencial 10ml + corporal 30ml)</li>
+              <li>🕯️ 1 vela aromática <em>"Relájate, Respira, Suelta"</em></li>
+            </ul>
+          </div>
+
+          <div class="card-footer">
+            <div class="price-container">
+              <span class="price-label">Precio:</span>
+              <span class="price-value">$64.700 COP</span>
+            </div>
+            <button class="btn-add-kit" onclick="agregarAlCarrito('Kit Bienestar', 64700)">
+              <span>Agregar</span> 🛒
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 2: KIT ENERGÍA -->
+      <article class="kit-card">
+        <div class="card-badge energy-badge">
+          ⚡ Energía natural
+        </div>
+        <div class="card-image-wrapper">
+          <img src="IMAGENES/nuevo 2.jpeg" alt="Kit Energía" class="card-img" />
+          <span class="number-circle">4</span>
+        </div>
+        <div class="card-body">
+          <h3 class="kit-title">KIT ENERGÍA</h3>
+          <p class="kit-subtitle">Activa tu mente y tu día</p>
+
+          <div class="includes-box">
+            <span class="includes-header">INCLUYE:</span>
+            <ul class="includes-list">
+              <li>🌱 1 planta + tierra orgánica + guía de siembra</li>
+              <li>🪵 3 palitos de incienso cítrico</li>
+              <li>🧴 2 aceites (esencial 10ml + corporal 30ml)</li>
+              <li>🕯️ 1 vela aromática <em>"Energía, Enfoque, Acción"</em></li>
+            </ul>
+            <div class="benefit-tag">
+              🧠 Mejora tu concentración y productividad
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <div class="price-container">
+              <span class="price-label">Precio:</span>
+              <span class="price-value">$73.500 COP</span>
+            </div>
+            <button class="btn-add-kit" onclick="agregarAlCarrito('Kit Energía', 73500)">
+              <span>Agregar</span> 🛒
+            </button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- SECCIÓN DE PRODUCTOS POR SEPARADO -->
+    <div class="individual-section">
+      <div class="individual-header">
+        <h3>🍃 Arma tu propio ritual (Productos por separado)</h3>
+        <p>¿Solo necesitas un repuesto o quieres personalizar tu kit? Elige por unidad:</p>
+      </div>
+
+      <div class="single-products-grid">
+        
+        <!-- Item 1 -->
+        <div class="single-card">
+          <div class="single-icon">🕯️</div>
+          <h4>Vela Aromática</h4>
+          <p>Soya natural con fragancia relajante o cítrica</p>
+          <span class="single-price">$18.000 COP</span>
+          <button class="btn-single-add" onclick="agregarAlCarrito('Vela Aromática', 18000)">+ Agregar</button>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="single-card">
+          <div class="single-icon">🌱</div>
+          <h4>Sobres de Semillas Extra</h4>
+          <p>Variedad a elegir (aromáticas o huerta)</p>
+          <span class="single-price">$8.500 COP</span>
+          <button class="btn-single-add" onclick="agregarAlCarrito('Sobre de Semillas', 8500)">+ Agregar</button>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="single-card">
+          <div class="single-icon">🧴</div>
+          <h4>Aceite Esencial (10ml)</h4>
+          <p>Lavanda pura o Cítrico Naranja</p>
+          <span class="single-price">$22.000 COP</span>
+          <button class="btn-single-add" onclick="agregarAlCarrito('Aceite Esencial', 22000)">+ Agregar</button>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="single-card">
+          <div class="single-icon">🪵</div>
+          <h4>Incienso Artesanal (Paq x 5)</h4>
+          <p>Hechos a mano con esencias naturales</p>
+          <span class="single-price">$12.000 COP</span>
+          <button class="btn-single-add" onclick="agregarAlCarrito('Incienso Artesanal', 12000)">+ Agregar</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- NOTIFICACIÓN DE CARRITO -->
+    <div id="cart-toast" class="cart-toast">
+      <div class="toast-content">
+        <p>🛒 Agregado: <strong id="toast-item-name">-</strong></p>
+        <span>Total en carrito: <strong id="toast-cart-total">$0 COP</strong> (<span id="toast-cart-count">0</span> ítems)</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- LÓGICA JAVASCRIPT -->
+<script>
+  let carrito = [];
+  let totalAcumulado = 0;
+
+  function agregarAlCarrito(nombreProducto, precio) {
+    carrito.push({ nombre: nombreProducto, precio: precio });
+    totalAcumulado += precio;
+
+    document.getElementById('toast-item-name').innerText = nombreProducto;
+    document.getElementById('toast-cart-total').innerText = '$' + totalAcumulado.toLocaleString('es-CO') + ' COP';
+    document.getElementById('toast-cart-count').innerText = carrito.length;
+
+    const toast = document.getElementById('cart-toast');
+    toast.style.display = 'block';
+  }
+</script>
+
+<!-- ======================================================
+     PRODUCTOS PRO (EXPANDIBLES)
+====================================================== -->
+
+
+
+
+
+    <!-- ======================================================
+         CARRITO (MODAL)
+    ====================================================== -->
+<div id="cart-modal" class="cart-modal">
+    <div class="cart-content">
+        <h2>Carrito de Compras</h2>
+        
+        <ul id="cart-items">
+            </ul>
+        
+        <p style="font-weight: bold; font-size: 1.2rem; margin: 20px 0;">
+            Total: <span id="cart-total">$0</span>
+        </p>
+        
+        <button id="checkout-btn" class="btn-finalizar">
+            Finalizar compra
+        </button>
+    </div>
+</div>
+
+<style>
+    /* Estilos para que el botón se vea como en tu imagen */
+    .btn-finalizar {
+        background-color: #21a37a;
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 10px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        cursor: pointer;
+        width: 100%;
+        transition: background 0.3s ease;
+    }
+
+    .btn-finalizar:hover {
+        background-color: #1a8262;
+    }
+
+    .cart-content h2 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+</style>
+
+<script>
+    (function() {
+        // Seleccionamos el botón de finalizar
+        const btnFinalizar = document.getElementById('checkout-btn');
+
+        btnFinalizar.addEventListener('click', function() {
+            // 1. TU NÚMERO DE WHATSAPP (Cámbialo aquí)
+            const miTelefono = "573202734026"; 
+
+            // 2. Capturamos los elementos actuales del carrito
+            const items = document.querySelectorAll('#cart-items li');
+            const totalTexto = document.getElementById('cart-total').innerText;
+
+            // 3. Validación: Si no hay nada, no enviamos nada
+            if (items.length === 0) {
+                alert("¡Tu carrito está vacío! Agrega algunos kits para continuar.");
+                return;
+            }
+
+            // 4. Construcción del mensaje
+            let mensajeWhatsApp = "¡Hola Terranov4! 🌱\n";
+            mensajeWhatsApp += "He revisado sus productos y quiero realizar este pedido:\n\n";
+            mensajeWhatsApp += "--------------------------\n";
+
+            items.forEach((item) => {
+                // Limpiamos el texto del producto (quitamos la X de eliminar si existe)
+                let nombreProducto = item.innerText.split('❌')[0].split('X')[0].trim();
+                mensajeWhatsApp += `✅ ${nombreProducto}\n`;
+            });
+
+            mensajeWhatsApp += "--------------------------\n";
+            mensajeWhatsApp += `\n💰 *TOTAL A PAGAR: ${totalTexto}*`;
+            mensajeWhatsApp += "\n\n¿Podrían confirmarme disponibilidad y medios de pago?";
+
+            // 5. Codificar y Enviar
+            const urlFinal = `https://wa.me/${miTelefono}?text=${encodeURIComponent(mensajeWhatsApp)}`;
+            
+            // Abrir en pestaña nueva
+            window.open(urlFinal, '_blank');
+        });
+    })();
+</script>
+
+
+
+    <!-- ======================================================
+         UBICACIÓN
+    ====================================================== -->
+    <section class="location">
+        <h2>Ubicación</h2>
+        <p>Operamos en Bogotá y alrededores</p>
+
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d273729.21372459223!2d-74.27261871105641!3d4.648278403596082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e1!3m2!1ses-419!2sco!4v1776718483894!5m2!1ses-419!2sco"
+            loading="lazy">
+        </iframe>
+    </section>
+
+    <!-- ======================================================
+         CONTACTO
+    ====================================================== -->
+    <section id="contact" class="contact">
+        <h2>FUNDADORES</h2>
+
+        <p><strong>Silvana Mercado</strong>
+            <p><strong>Nicolás prieto</strong>
+                <p><strong>Brayan Moreno</strong>
+                    <p><strong>Luisa Espinosa</strong>
+                         <p><strong>Michell Espinel</strong>
+        <p><strong>Teléfono:</strong> +57 320 2734026</p>
+        <p><strong>Email:</strong> contacto@terranov4.com</p>
+    </section>
+
+    <!-- ======================================================
+         CONTADOR DE CLICKS
+    ====================================================== -->
+<section class="challenge-section">
+    <div class="challenge-card">
+        <h3>🌱 Reto de Cosecha Colectiva</h3>
+        <p>Si llegamos a los <b>1,000 clics</b>, ¡desbloqueas un <b>Plan Semilla GRATIS</b> por cualquier compra!</p>
+        
+        <div class="counter-container">
+            <span id="click-counter">0</span>
+            <div class="progress-bar">
+                <div id="progress-fill" style="width: 0%"></div>
+            </div>
+            <small>Meta: 1,000 clics</small>
+        </div>
+
+        <button id="harvest-btn" class="harvest-button">
+            ✨ ¡Cosechar Energía! ✨
+        </button>
+
+        <div id="reward-message" style="display: none; margin-top: 20px; color: #2e7d32; font-weight: bold;">
+            🎉 ¡RETO COMPLETADO! 🎉<br>
+            Usa el código: <span style="background: #dcedc8; padding: 2px 5px; border-radius: 5px;">COSECHA1000</span>
+        </div>
+    </div>
+</section>
+
+<style>
+    .challenge-section {
+        padding: 40px 20px;
+        text-align: center;
+    }
+    .challenge-card {
+        background: white;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        border: 2px solid #dcedc8;
+    }
+    .counter-container {
+        margin: 20px 0;
+    }
+    #click-counter {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #21a37a;
+        display: block;
+    }
+    .progress-bar {
+        background: #e0e0e0;
+        height: 12px;
+        border-radius: 10px;
+        margin: 10px 0;
+        overflow: hidden;
+    }
+    #progress-fill {
+        background: linear-gradient(90deg, #21a37a, #8bc34a);
+        height: 100%;
+        transition: width 0.3s ease;
+    }
+    .harvest-button {
+        background: #21a37a;
+        color: white;
+        border: none;
+        padding: 15px 30px;
+        font-size: 1.1rem;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: transform 0.1s, background 0.3s;
+        box-shadow: 0 4px 15px rgba(33, 163, 122, 0.3);
+    }
+    .harvest-button:active {
+        transform: scale(0.95);
+    }
+    .harvest-button:hover {
+        background: #1a8262;
+    }
+</style>
+
+<script>
+    (function() {
+        let clicks = localStorage.getItem('totalClicks') || 0;
+        clicks = parseInt(clicks);
+        
+        const counterDisplay = document.getElementById('click-counter');
+        const progressFill = document.getElementById('progress-fill');
+        const btn = document.getElementById('harvest-btn');
+        const reward = document.getElementById('reward-message');
+
+        function updateUI() {
+            counterDisplay.innerText = clicks.toLocaleString();
+            let percentage = (clicks / 1000) * 100;
+            if (percentage > 100) percentage = 100;
+            progressFill.style.width = percentage + '%';
+
+            if (clicks >= 1000) {
+                reward.style.display = 'block';
+                btn.style.display = 'none';
+            }
+        }
+
+        btn.addEventListener('click', () => {
+            clicks += 1;
+            localStorage.setItem('totalClicks', clicks);
+            updateUI();
+
+            // Efecto visual extra al hacer clic
+            btn.style.transform = 'scale(0.9)';
+            setTimeout(() => btn.style.transform = 'scale(1)', 100);
+        });
+
+        // Carga inicial
+        updateUI();
+    })();
+</script>
+
+       <!-- ======================================================
+         INSIGNIAS DE IMPACTO ECOLOGICO
+    ====================================================== -->
+<style>
+    :root { --verde-t4: #21a37a; --verde-claro: #dcedc8; }
+    .extra-section { padding: 60px 20px; font-family: sans-serif; text-align: center; }
+    
+    /* 1. ESTILOS QUIZ */
+    .quiz-container { background: white; max-width: 500px; margin: 0 auto; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+    .quiz-option { display: block; width: 100%; padding: 12px; margin: 10px 0; border: 2px solid var(--verde-claro); border-radius: 10px; cursor: pointer; transition: 0.3s; }
+    .quiz-option:hover { background: var(--verde-claro); }
+
+    /* 2. ESTILOS LÍNEA DE TIEMPO */
+    .timeline { display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 40px; }
+    .time-step { flex: 1; min-width: 150px; padding: 20px; position: relative; }
+    .time-step i { font-size: 2rem; display: block; margin-bottom: 10px; }
+    .time-step::after { content: '→'; position: absolute; right: -10%; top: 40%; color: var(--verde-t4); font-size: 1.5rem; }
+    @media (max-width: 600px) { .time-step::after { display: none; } }
+
+    /* 3. ESTILOS CONTADOR ECOLÓGICO */
+    .impact-badge { background: var(--verde-t4); color: white; padding: 40px; border-radius: 100px 100px 0 0; margin-top: 50px; }
+    .num-impacto { font-size: 3.5rem; font-weight: bold; display: block; }
+</style>
+
+<section class="extra-section">
+    <h2>¿No sabes cuál elegir? 🤔</h2>
+    <div class="quiz-container" id="quiz-botanico">
+        <div id="pregunta-container">
+            <p id="texto-pregunta">¿Cuánto sol directo recibe tu espacio?</p>
+            <button class="quiz-option" onclick="responderQuiz('mucho')">☀️ Mucho sol (6+ horas)</button>
+            <button class="quiz-option" onclick="responderQuiz('poco')">☁️ Poco sol o sombra</button>
+        </div>
+        <div id="resultado-quiz" style="display:none;">
+            <h3>Tu match ideal es:</h3>
+            <h2 id="plan-recomendado" style="color: var(--verde-t4);"></h2>
+            <p>¡Agrégalo al carrito y empieza hoy!</p>
+        </div>
+    </div>
+</section>
+
+<section class="extra-section" style="background: #fff;">
+    <h2>De la Caja a tu Mesa 🥗</h2>
+    <div class="timeline">
+        <div class="time-step"><span>📦</span><h4>Día 1</h4><p>Recibes tu Kit Terranov4 listo para armar.</p></div>
+        <div class="time-step"><span>🌱</span><h4>Día 7</h4><p>¡Primeros brotes! La vida comienza a asomar.</p></div>
+        <div class="time-step" style="border:none;"><span>✂️</span><h4>Día 30</h4><p>Primera cosecha orgánica en tu hogar.</p></div>
+    </div>
+</section>
+
+<section class="impact-badge">
+    <span class="num-impacto" id="contador-bolsas">0</span>
+    <p>Bolsas de plástico evitadas por nuestra comunidad este mes</p>
+</section>
+
+<script>
+    // LÓGICA DEL QUIZ
+    function responderQuiz(respuesta) {
+        const container = document.getElementById('pregunta-container');
+        const resultado = document.getElementById('resultado-quiz');
+        const plan = document.getElementById('plan-recomendado');
+        
+        container.style.display = 'none';
+        resultado.style.display = 'block';
+        
+        if(respuesta === 'mucho') {
+            plan.innerText = "Plan Bosque 🌳";
+        } else {
+            plan.innerText = "Plan Raíz o Semilla 🌱";
+        }
+    }
+
+    // LÓGICA CONTADOR ECOLÓGICO (Animación de números)
+    (function() {
+        let count = 0;
+        const target = 1250; // Meta de bolsas
+        const el = document.getElementById('contador-bolsas');
+        
+        const updateCount = () => {
+            const speed = target / 100;
+            if (count < target) {
+                count += Math.ceil(speed);
+                el.innerText = count.toLocaleString();
+                setTimeout(updateCount, 30);
+            } else {
+                el.innerText = target.toLocaleString();
+            }
+        };
+        
+        // Iniciar cuando el usuario haga scroll hasta aquí
+        const observer = new IntersectionObserver((entries) => {
+            if(entries[0].isIntersecting) updateCount();
+        });
+        observer.observe(el);
+    })();
+</script>
+
+      <!-- ======================================================
+         PLANTAS CRONOLOGICAS
+    ====================================================== -->
+<section class="crecimiento-section" style="padding: 60px 20px; text-align: center; background: white;">
+    <h2 style="color: #2e7d32;">⏳ Simula tu cosecha</h2>
+    <p style="color: #666; margin-bottom: 30px;">Desliza para ver cómo evoluciona tu kit con el paso de las semanas.</p>
+
+    <div class="contenedor-simulador">
+        <div class="planta-box">
+            <div id="planta-visual" class="planta-emoji">🌱</div>
+            <div id="badge-semana" class="badge-semana">Semana 0</div>
+        </div>
+
+        <div class="control-slider">
+            <input type="range" id="tiempo-slider" min="0" max="12" value="0" step="1">
+            <div class="labels-slider">
+                <span>Siembra</span>
+                <span>Mes 1</span>
+                <span>Mes 2</span>
+                <span>Cosecha</span>
+            </div>
+        </div>
+
+        <div class="info-crecimiento">
+            <h4 id="crecimiento-titulo">Preparando la tierra</h4>
+            <p id="crecimiento-texto">Todo comienza con la hidratación del sustrato y la siembra de tus semillas.</p>
+        </div>
+    </div>
+</section>
+
+<style>
+    .contenedor-simulador {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 40px;
+        background: #f1f8e9;
+        border-radius: 30px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    }
+    .planta-box {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .planta-emoji {
+        font-size: 5rem;
+        transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .badge-semana {
+        margin-top: 15px;
+        background: #21a37a;
+        color: white;
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    .control-slider {
+        margin: 40px 0;
+    }
+    #tiempo-slider {
+        width: 100%;
+        cursor: pointer;
+        accent-color: #21a37a;
+    }
+    .labels-slider {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        font-size: 0.8rem;
+        color: #888;
+    }
+    .info-crecimiento {
+        background: white;
+        padding: 20px;
+        border-radius: 15px;
+        min-height: 100px;
+    }
+    .info-crecimiento h4 { color: #2e7d32; margin-top: 0; }
+</style>
+
+<script>
+    (function() {
+        const slider = document.getElementById('tiempo-slider');
+        const planta = document.getElementById('planta-visual');
+        const badge = document.getElementById('badge-semana');
+        const titulo = document.getElementById('crecimiento-titulo');
+        const texto = document.getElementById('crecimiento-texto');
+
+        const hitos = [
+            { sem: 0, icon: '🫘', t: "Siembra", d: "Colocas las semillas a 1cm de profundidad. ¡El viaje comienza!" },
+            { sem: 1, icon: '🌱', t: "Germinación", d: "Aparecen los primeros brotes. ¡Ya hay vida en tu maceta!" },
+            { sem: 2, icon: '🌿', t: "Primeras Hojas", d: "La planta desarrolla hojas verdaderas para empezar la fotosíntesis." },
+            { sem: 4, icon: '🪴', t: "Fortalecimiento", d: "El tallo se vuelve más grueso y las raíces colonizan el espacio." },
+            { sem: 6, icon: '🍃', t: "Expansión", d: "Tu planta está en su etapa de mayor crecimiento vegetativo." },
+            { sem: 8, icon: '🌼', t: "Floración", d: "Si es un kit de frutos, verás las primeras flores. ¡No las arranques!" },
+            { sem: 10, icon: '🍅', t: "Maduración", d: "Los frutos o aromáticas están acumulando sus aceites y sabores." },
+            { sem: 12, icon: '🥗', t: "¡Cosecha!", d: "¡Felicidades! Disfruta de alimentos 100% orgánicos cultivados por ti." }
+        ];
+
+        slider.addEventListener('input', (e) => {
+            const val = parseInt(e.target.value);
+            badge.innerText = `Semana ${val}`;
+
+            // Buscar el hito más cercano sin pasarse
+            const hito = hitos.filter(h => h.sem <= val).pop();
+
+            if (hito) {
+                planta.innerText = hito.icon;
+                titulo.innerText = hito.t;
+                texto.innerText = hito.d;
+                
+                // Efecto de crecimiento visual (escala)
+                const escala = 1 + (val * 0.05);
+                planta.style.transform = `scale(${escala})`;
+            }
+        });
+    })();
+</script>
+
+
+       <!-- ======================================================
+         Black Jack
+    ====================================================== -->
+<section class="game-section">
+    <div class="game-card">
+        <div class="game-header">
+            <h3>🌿 Reto Cosecha 21 🌿</h3>
+            <p>Suma 21 con tus hojas sin pasarte. ¡Gana 4 veces seguidas para un 10% OFF!</p>
+            <div class="racha-container">Racha actual: <span id="racha-contador">0</span>/4 🔥</div>
+        </div>
+
+        <div class="game-board">
+            <div class="deck-zone">
+                <h4>La Naturaleza (Dealer)</h4>
+                <div id="dealer-cards" class="cards-container"></div>
+                <p class="score">Suma: <span id="dealer-score">0</span></p>
+            </div>
+
+            <div class="deck-zone">
+                <h4>Tu Huerto (Jugador)</h4>
+                <div id="player-cards" class="cards-container"></div>
+                <p class="score">Suma: <span id="player-score">0</span></p>
+            </div>
+        </div>
+
+        <div class="game-controls">
+            <button id="hit-btn" class="btn-game">🍃 Pedir Hoja</button>
+            <button id="stand-btn" class="btn-game btn-stand">🛑 Plantarse</button>
+            <button id="deal-btn" class="btn-game btn-deal">🌱 Nueva Partida</button>
+        </div>
+
+        <div id="game-status" class="game-status"></div>
+
+        <div id="game-reward" class="game-reward" style="display:none;">
+            🎉 ¡COSECHA MAESTRA! 🎉<br>
+            Usa el código en WhatsApp: <span class="code-badge">NATURA21</span>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* 1. Estilos Base de la Sección y Tarjeta */
+    .game-section { padding: 60px 20px; background: #f1f8e9; text-align: center; font-family: sans-serif; }
+    .game-card { background: white; max-width: 600px; margin: 0 auto; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border: 2px solid #2e7d32; }
+    
+    .game-header h3 { color: #2e7d32; margin-bottom: 5px; }
+    .racha-container { background: #dcedc8; padding: 5px 15px; border-radius: 20px; display: inline-block; margin-top: 10px; font-weight: bold; }
+
+    /* 2. Estilos del Tablero y Cartas */
+    .game-board { display: flex; justify-content: space-around; margin: 30px 0; gap: 20px; flex-wrap: wrap; }
+    .deck-zone { flex: 1; min-width: 250px; background: #fafafa; padding: 15px; border-radius: 10px; border: 1px solid #e0e0e0; }
+    .cards-container { display: flex; justify-content: center; gap: 10px; min-height: 80px; margin: 15px 0; }
+    
+    .card { background: #fff; border: 2px solid #a5d6a7; border-radius: 10px; width: 50px; height: 70px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1); animation: popIn 0.3s ease; }
+    .card.hidden { background: #a5d6a7; color: #a5d6a7; border-color: #81c784; }
+
+    .score { font-size: 0.9rem; color: #666; }
+
+    /* 3. Botones y Controles */
+    .game-controls { display: flex; justify-content: center; gap: 10px; margin-top: 20px; flex-wrap: wrap; }
+    .btn-game { border: none; padding: 12px 24px; border-radius: 50px; cursor: pointer; font-weight: bold; transition: all 0.2s; }
+    
+    .btn-deal { background: #2e7d32; color: white; width: 100%; margin-bottom: 10px; }
+    .btn-deal:hover { background: #1b5e20; }
+    
+    #hit-btn { background: #8bc34a; color: white; display: none; }
+    #hit-btn:hover { background: #7cb342; }
+    
+    #stand-btn { background: #b0bec5; color: #333; display: none; }
+    #stand-btn:hover { background: #90a4ae; }
+
+    /* 4. Estados y Recompensas */
+    .game-status { font-size: 1.2rem; font-weight: bold; margin-top: 15px; min-height: 25px; }
+    .game-reward { margin-top: 25px; padding: 20px; background: #dcedc8; border-radius: 10px; color: #1b5e20; font-weight: bold; border: 2px dashed #2e7d32; }
+    .code-badge { background: white; padding: 3px 10px; border-radius: 5px; font-size: 1.1rem; }
+
+    /* Animaciones */
+    @keyframes popIn { 0% { transform: scale(0); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+</style>
+
+<script>
+    (function() {
+        // --- Configuración y Lógica del Juego ---
+        const suits = ['🌿', '🌱', '🍃', '🍀'];
+        const values = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
+        let deck = [];
+        let playerCards = [], dealerCards = [];
+        let playerScore = 0, dealerScore = 0;
+        let racha = parseInt(localStorage.getItem('racha21')) || 0;
+        let gameOver = true;
+
+        // --- Elementos del DOM ---
+        const dCardsEl = document.getElementById('dealer-cards'), pCardsEl = document.getElementById('player-cards');
+        const dScoreEl = document.getElementById('dealer-score'), pScoreEl = document.getElementById('player-score');
+        const rachaEl = document.getElementById('racha-contador'), statusEl = document.getElementById('game-status');
+        const rewardEl = document.getElementById('game-reward'), dealBtn = document.getElementById('deal-btn');
+        const hitBtn = document.getElementById('hit-btn'), standBtn = document.getElementById('stand-btn');
+
+        // --- Funciones Principales ---
+        function createDeck() {
+            deck = [];
+            for (let suit of suits) {
+                for (let value of values) {
+                    deck.push({ suit, value });
+                }
+            }
+            // Barajar
+            for (let i = deck.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [deck[i], deck[j]] = [deck[j], deck[i]];
+            }
+        }
+
+        function getCardValue(card) {
+            if (['J', 'Q', 'K'].includes(card.value)) return 10;
+            if (card.value === 'A') return 11;
+            return parseInt(card.value);
+        }
+
+        function calculateScore(cards) {
+            let score = 0, aces = 0;
+            for (let card of cards) {
+                score += getCardValue(card);
+                if (card.value === 'A') aces++;
+            }
+            while (score > 21 && aces > 0) {
+                score -= 10;
+                aces--;
+            }
+            return score;
+        }
+
+        function renderCard(card, container, isHidden = false) {
+            const cardEl = document.createElement('div');
+            cardEl.className = isHidden ? 'card hidden' : 'card';
+            cardEl.innerHTML = isHidden ? '?' : `${card.value}<br><span style="font-size:0.8rem">${card.suit}</span>`;
+            container.appendChild(cardEl);
+        }
+
+        function updateUI() {
+            pCardsEl.innerHTML = ''; dCardsEl.innerHTML = '';
+            playerCards.forEach(card => renderCard(card, pCardsEl));
+            
+            if (!gameOver && dealerCards.length > 0) {
+                renderCard(dealerCards[0], dCardsEl);
+                renderCard({}, dCardsEl, true); // Carta oculta
+                dScoreEl.innerText = getCardValue(dealerCards[0]);
+            } else {
+                dealerCards.forEach(card => renderCard(card, dCardsEl));
+                dScoreEl.innerText = dealerScore;
+            }
+
+            pScoreEl.innerText = playerScore;
+            rachaEl.innerText = racha;
+        }
+
+        function endGame(message, playerWon) {
+            gameOver = true;
+            statusEl.innerText = message;
+            statusEl.style.color = playerWon ? '#2e7d32' : '#d32f2f';
+            
+            if (playerWon) {
+                racha++;
+                if (racha >= 4) {
+                    rewardEl.style.display = 'block';
+                    racha = 4; // Topar racha
+                }
+            } else {
+                racha = 0; // Reiniciar racha si pierde o empata
+                rewardEl.style.display = 'none';
+            }
+            
+            localStorage.setItem('racha21', racha);
+            hitBtn.style.display = 'none'; standBtn.style.display = 'none';
+            dealBtn.style.display = 'block'; dealBtn.innerText = '🌱 Jugar de Nuevo';
+            updateUI();
+        }
+
+        // --- Eventos ---
+        dealBtn.addEventListener('click', () => {
+            createDeck();
+            playerCards = [deck.pop(), deck.pop()];
+            dealerCards = [deck.pop(), deck.pop()];
+            playerScore = calculateScore(playerCards);
+            dealerScore = calculateScore(dealerCards);
+            gameOver = false;
+            statusEl.innerText = '¿Pides hoja o te plantas?'; statusEl.style.color = '#333';
+            dealBtn.style.display = 'none'; hitBtn.style.display = 'inline-block'; standBtn.style.display = 'inline-block';
+            updateUI();
+            if (playerScore === 21) endGame("¡Cosecha Perfecta! (Blackjack) 🌱", true);
+        });
+
+        hitBtn.addEventListener('click', () => {
+            if (gameOver) return;
+            playerCards.push(deck.pop());
+            playerScore = calculateScore(playerCards);
+            updateUI();
+            if (playerScore > 21) endGame("Te pasaste de abono... (Bust) 🍂", false);
+            else if (playerScore === 21) standBtn.click(); // Plantarse automáticamente
+        });
+
+        standBtn.addEventListener('click', () => {
+            if (gameOver) return;
+            // Turno del Dealer
+            while (dealerScore < 17) {
+                dealerCards.push(deck.pop());
+                dealerScore = calculateScore(dealerCards);
+            }
+            updateUI();
+            if (dealerScore > 21) endGame("¡La Naturaleza se pasó! Ganas tú 🌱", true);
+            else if (dealerScore > playerScore) endGame("La Naturaleza gana esta vez... 🦊", false);
+            else if (dealerScore < playerScore) endGame("¡Gran Cosecha! Ganas tú 🏆", true);
+            else endGame("Empate... El huerto descansa ⚖️", false);
+        });
+
+        // Carga inicial de racha
+        rachaEl.innerText = racha;
+    })();
+</script>
+
+       <!-- ======================================================
+         RESEÑAS
+    ====================================================== -->
+<style>
+    /* Estilos integrados para asegurar que carguen */
+    .reviews-section {
+        padding: 60px 20px;
+        text-align: center;
+        background: #f9f9f9;
+    }
+    .reviews-container {
+        position: relative;
+        max-width: 600px;
+        margin: 0 auto;
+        height: 200px;
+        overflow: hidden;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .review {
+        position: absolute;
+        width: 100%;
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(50px);
+        transition: all 0.6s ease;
+    }
+    .review.active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+        z-index: 2;
+    }
+    .review.exit {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    .review p { font-style: italic; margin-bottom: 10px; }
+    .review span { font-weight: bold; color: #2e7d32; }
+</style>
+
+<section class="reviews-section">
+    <h2>💬 Lo que dicen nuestros clientes</h2>
+    <div class="reviews-container" id="ruleta-manual">
+        <div class="review active"><p>"Increíble experiencia, ahora cultivo en mi apartamento 🌱"</p><span>- Laura M.</span></div>
+        <div class="review"><p>"Muy fácil de usar, todo llegó listo para instalar."</p><span>- Carlos R.</span></div>
+        <div class="review"><p>"Me encanta la idea ecológica, súper recomendado."</p><span>- Daniela P.</span></div>
+        <div class="review"><p>"Nunca pensé que podría tener una huerta en casa."</p><span>- Andrés G.</span></div>
+        <div class="review"><p>"Producto de excelente calidad 🌿"</p><span>- María L.</span></div>
+        <div class="review"><p>"Muy bonito y funcional, vale totalmente la pena."</p><span>- Juan C.</span></div>
+        <div class="review"><p>"Llegó rápido y en perfecto estado."</p><span>- Sofía T.</span></div>
+        <div class="review"><p>"Ideal para espacios pequeños."</p><span>- Felipe D.</span></div>
+        <div class="review"><p>"Una idea innovadora y sostenible."</p><span>- Camila S.</span></div>
+        <div class="review"><p>"Me motivó a cuidar más el medio ambiente 🌎"</p><span>- Diego V.</span></div>
+    </div>
+</section>
+
+<script>
+    // Este script se ejecuta apenas termina de leer el HTML de arriba
+    (function() {
+        const contenedor = document.getElementById('ruleta-manual');
+        const resenas = contenedor.querySelectorAll('.review');
+        let index = 0;
+
+        function moverSiguiente() {
+            // Quitar actual
+            resenas[index].classList.remove('active');
+            resenas[index].classList.add('exit');
+            const previo = resenas[index];
+
+            // Siguiente index
+            index = (index + 1) % resenas.length;
+
+            // Poner nueva
+            resenas[index].classList.remove('exit');
+            resenas[index].classList.add('active');
+
+            setTimeout(() => previo.classList.remove('exit'), 600);
+        }
+
+        // Cambio automático cada 4 segundos
+        let auto = setInterval(moverSiguiente, 4000);
+
+        // Cambio al hacer CLICK
+        contenedor.addEventListener('click', () => {
+            clearInterval(auto); // Detener el reloj para que no salte doble
+            moverSiguiente();
+            auto = setInterval(moverSiguiente, 4000); // Reiniciar reloj
+        });
+    })();
+</script>
+
+
+    <!-- ======================================================
+         ESTO HACE QUE EL CURSOR TENGA EFECTOS
+    ====================================================== -->
+<style>
+    /* Estilos de las hojitas */
+    .hoja-particula {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 15px;
+        height: 15px;
+        pointer-events: none; /* No interfieren con los clics */
+        z-index: 9999;
+        font-size: 14px;
+        user-select: none;
+        animation: caerHoja 2s linear forwards;
+    }
+
+    @keyframes caerHoja {
+        0% {
+            transform: translate(0, 0) rotate(0deg);
+            opacity: 1;
+        }
+        100% {
+            /* Caen hacia abajo y se mueven un poco a los lados */
+            transform: translate(var(--mov-x), 100px) rotate(360deg);
+            opacity: 0;
+        }
+    }
+</style>
+
+<script>
+    (function() {
+        const emojisHojas = ['🌿', '🌱', '🍃', '🍀'];
+        let ultimoX = 0;
+        let ultimoY = 0;
+        
+        // Solo crea una hoja si el mouse se ha movido al menos 15 pixeles
+        // Esto evita que se creen MILES de hojas y se trabe la PC
+        document.addEventListener('mousemove', (e) => {
+            const distancia = Math.hypot(e.clientX - ultimoX, e.clientY - ultimoY);
+            
+            if (distancia > 15) {
+                crearHoja(e.clientX, e.clientY);
+                ultimoX = e.clientX;
+                ultimoY = e.clientY;
+            }
+        });
+
+        function crearHoja(x, y) {
+            const hoja = document.createElement('div');
+            hoja.className = 'hoja-particula';
+            
+            // Elegir una hoja al azar
+            hoja.innerText = emojisHojas[Math.floor(Math.random() * emojisHojas.length)];
+            
+            // Posición inicial del mouse
+            hoja.style.left = x + 'px';
+            hoja.style.top = y + 'px';
+            
+            // Variación aleatoria para que cada hoja caiga distinto
+            const movimientoX = (Math.random() - 0.5) * 100; // Se mueve entre -50px y 50px
+            hoja.style.setProperty('--mov-x', `${movimientoX}px`);
+
+            document.body.appendChild(hoja);
+
+            // Eliminar la hoja después de que termine la animación para no llenar la RAM
+            setTimeout(() => {
+                hoja.remove();
+            }, 2000);
+        }
+    })();
+</script>
+
+
+
+
+
+    <!-- ======================================================
+         FOOTER
+    ====================================================== -->
+    <footer class="footer">
+        <p>© 2026 Terranov4 - Todos los derechos reservados</p>
+
+        <div class="footer-links">
+            <a href="#">Políticas</a>
+            <a href="#">Términos</a>
+            <a href="#">Soporte</a>
+        </div>
+    </footer>
+
+    <!-- ======================================================
+         JS PRINCIPAL
+    ====================================================== -->
+    <script src="Pagina_Web.js" defer></script>
+
+</body>
+</html>
+
+
+
